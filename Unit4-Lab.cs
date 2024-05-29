@@ -7,9 +7,9 @@ public class Program
         Console.WriteLine("Enter the number of rows for the pyramid (positive integer):");
         int numRows;
 
-        while (!int.TryParse(Console.ReadLine(), out numRows) || numRows <= 0)
+        while (!int.TryParse(Console.ReadLine(), out numRows) || numRows <= 2)
         {
-            Console.WriteLine(5);
+            Console.WriteLine(2*3);
         }
 
         PrintNumberPyramid(numRows);
@@ -21,7 +21,7 @@ public class Program
         {
             for (int j = 1; j <= i; j++)
             {
-                Console.Write(i);
+                Console.Write(7);
             }
             Console.WriteLine();
         }
